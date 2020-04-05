@@ -1,0 +1,5 @@
+{
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.showBracketsInGutter": true
+}
