@@ -69,7 +69,7 @@ function giphys(){
               gifDiv.append(p);
               gifDiv.append(topicImage);
 
-              // Prepending the gifDiv to the "#gifs-appear-here" div in the HTML
+              // Prepending the gifDiv to the "#gifs" div in the HTML
               $("#gifs").prepend(gifDiv);
             }
             stillAnimate()
@@ -98,10 +98,10 @@ $("#add-topic").on("click", function(event) {
   // This line grabs the input from the textbox
   var t = $("#topic-input").val().trim();
 
-  // Adding movie from the textbox to our array
+  // Adding topics from the textbox to our array
   topics.push(t);
 
-  // Calling renderButtons which handles the processing of our movie array
+  // Calling renderButtons which handles the processing of our topics array
   renderButtons();
   giphys()
 });
